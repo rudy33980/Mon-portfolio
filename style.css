@@ -116,7 +116,7 @@ a:hover::after {
 
 /* Paramètres par ordre d'apparition */
 header {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   margin: 2vw 2vw 0;
 }
@@ -157,7 +157,7 @@ header h2 {
   margin: 400px 0 250px;
 }
 .img1 {
-  background: url(./assets/img/photos\ de\ profil.png) top/cover;
+  background: url(./assets/img/career-111932__340.jpg) top/cover;
   width: 50%;
   height: 400px;
 }
@@ -170,6 +170,7 @@ header h2 {
   min-width: 280px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 100px;
   line-height: calc(7px + 4.5vw);
   font-size: calc(1rem + 1vw);
   letter-spacing: 1px;
@@ -230,6 +231,13 @@ header h2 {
 .project img {
   transition: 0.4s ease-out;
   width: 100%;
+}
+@media (min-width: 300px) and (max-width: 768px){ 
+
+  .project img {
+    width: 150%;
+  }
+
 }
 .project:hover img {
   filter: brightness(20%);
