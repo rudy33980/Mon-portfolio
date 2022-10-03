@@ -156,7 +156,7 @@ header h2 {
   font-size: calc(0.8rem + 0.5vw);
 }
 .about {
-  margin:  0 250px;
+  /* margin:  0 0px; */
 }
 .img1 {
   background: url(./assets/img/career-111932__340.jpg) top/cover;
@@ -225,7 +225,7 @@ header h2 {
   width: 0;
 }
 #p2,#p4 {
-  margin: 0 14vw 0 auto;
+  margin: 0 35vw 0 auto;
 }
 #p3 {
   margin-left: 8vw;
