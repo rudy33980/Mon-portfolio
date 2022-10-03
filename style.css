@@ -155,9 +155,7 @@ header h2 {
   color: rgb(217, 217, 217);
   font-size: calc(0.8rem + 0.5vw);
 }
-.about {
-  /* margin:  0 0px; */
-}
+
 .img1 {
   background: url(./assets/img/career-111932__340.jpg) top/cover;
   width: 50%;
